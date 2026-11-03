@@ -1,0 +1,14 @@
+﻿tarefa,modelo,mean,sum,count
+emo_ptmz,AfroXLMR,249.2,747.6,3
+emo_ptmz,TF-IDF+RL,11.0,11.0,1
+emo_ptmz,XLM-R,135.0,405.0,3
+emo_ptmz,mBERT,68.5,205.4,3
+senti_por,AfroXLMR,131.0,393.0,3
+senti_por,TF-IDF+RL,16.5,16.5,1
+senti_por,XLM-R,115.3,345.8,3
+senti_por,mBERT,82.8,248.3,3
+senti_tso,AfroXLMR,219.6,658.7,3
+senti_tso,AfroXLMR-76L,329.9,989.6,3
+senti_tso,TF-IDF+RL,2.3,2.3,1
+senti_tso,XLM-R,107.0,321.0,3
+senti_tso,mBERT,56.7,170.1,3

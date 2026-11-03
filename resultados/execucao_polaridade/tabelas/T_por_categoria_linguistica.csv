@@ -1,0 +1,43 @@
+﻿tarefa,modelo,categoria,n_textos,macro_f1,macro_f1_media,aviso
+Sentimento — AfriSenti Português MZ,Maioritária,Português,3221,nan,,
+Sentimento — AfriSenti Português MZ,Maioritária,Código-Misto,441,nan,,
+Sentimento — AfriSenti Português MZ,TF-IDF+RL,Português,3221,0.5374,0.5374,
+Sentimento — AfriSenti Português MZ,TF-IDF+RL,Código-Misto,441,0.5185,0.5185,
+Sentimento — AfriSenti Português MZ,Léxico NRC,Português,3221,nan,,
+Sentimento — AfriSenti Português MZ,Léxico NRC,Código-Misto,441,nan,,
+Sentimento — AfriSenti Português MZ,mBERT,Português,3221,0.5532 ± 0.0063,0.5532,
+Sentimento — AfriSenti Português MZ,mBERT,Código-Misto,441,0.5960 ± 0.0036,0.596,
+Sentimento — AfriSenti Português MZ,XLM-R,Português,3221,0.6318 ± 0.0091,0.6318,
+Sentimento — AfriSenti Português MZ,XLM-R,Código-Misto,441,0.5928 ± 0.0317,0.5928,
+Sentimento — AfriSenti Português MZ,AfroXLMR,Português,3221,0.5812 ± 0.0076,0.5812,
+Sentimento — AfriSenti Português MZ,AfroXLMR,Código-Misto,441,0.5464 ± 0.0201,0.5464,
+Sentimento — AfriSenti Xitsonga,Maioritária,Português,1,nan,,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,Maioritária,Código-Misto,251,nan,,
+Sentimento — AfriSenti Xitsonga,Maioritária,Xichangana,2,nan,,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,TF-IDF+RL,Português,1,0.0000,0.0,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,TF-IDF+RL,Código-Misto,251,0.4524,0.4524,
+Sentimento — AfriSenti Xitsonga,TF-IDF+RL,Xichangana,2,0.0000,0.0,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,Léxico NRC,Português,1,nan,,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,Léxico NRC,Código-Misto,251,nan,,
+Sentimento — AfriSenti Xitsonga,Léxico NRC,Xichangana,2,nan,,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,mBERT,Português,1,0.0000 ± 0.0000,0.0,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,mBERT,Código-Misto,251,0.3731 ± 0.0141,0.3731,
+Sentimento — AfriSenti Xitsonga,mBERT,Xichangana,2,0.0741 ± 0.1283,0.0741,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,XLM-R,Português,1,0.2222 ± 0.1925,0.2222,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,XLM-R,Código-Misto,251,0.3322 ± 0.0180,0.3322,
+Sentimento — AfriSenti Xitsonga,XLM-R,Xichangana,2,0.0741 ± 0.1283,0.0741,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,AfroXLMR,Português,1,0.2222 ± 0.1925,0.2222,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,AfroXLMR,Código-Misto,251,0.3794 ± 0.0075,0.3794,
+Sentimento — AfriSenti Xitsonga,AfroXLMR,Xichangana,2,0.2222 ± 0.0000,0.2222,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,AfroXLMR-76L,Português,1,0.1111 ± 0.1925,0.1111,amostra reduzida (n < 30)
+Sentimento — AfriSenti Xitsonga,AfroXLMR-76L,Código-Misto,251,0.3570 ± 0.0042,0.357,
+Sentimento — AfriSenti Xitsonga,AfroXLMR-76L,Xichangana,2,0.2222 ± 0.0000,0.2222,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,mBERT,Português,1,0.0000 ± 0.0000,0.0,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,mBERT,Código-Misto,251,0.2003 ± 0.0452,0.2003,
+Zero-shot PT-MZ → Xitsonga,mBERT,Xichangana,2,0.2222 ± 0.0000,0.2222,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,XLM-R,Português,1,0.0000 ± 0.0000,0.0,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,XLM-R,Código-Misto,251,0.2617 ± 0.0068,0.2617,
+Zero-shot PT-MZ → Xitsonga,XLM-R,Xichangana,2,0.5185 ± 0.2566,0.5185,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,AfroXLMR,Português,1,0.0000 ± 0.0000,0.0,amostra reduzida (n < 30)
+Zero-shot PT-MZ → Xitsonga,AfroXLMR,Código-Misto,251,0.2451 ± 0.0132,0.2451,
+Zero-shot PT-MZ → Xitsonga,AfroXLMR,Xichangana,2,0.5185 ± 0.2566,0.5185,amostra reduzida (n < 30)

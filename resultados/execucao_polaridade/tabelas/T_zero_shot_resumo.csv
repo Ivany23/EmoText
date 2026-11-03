@@ -1,0 +1,4 @@
+﻿tarefa,modelo,n_sementes,macro_f1,macro_f1_media,f1_ponderado,f1_ponderado_media,exactidao,exactidao_media
+Zero-shot PT-MZ → Xitsonga,mBERT,3,0.2005 ± 0.0449,0.2005,0.1756 ± 0.0531,0.1756,0.2297 ± 0.0262,0.2297
+Zero-shot PT-MZ → Xitsonga,XLM-R,3,0.2642 ± 0.0085,0.2642,0.2571 ± 0.0099,0.2571,0.2808 ± 0.0060,0.2808
+Zero-shot PT-MZ → Xitsonga,AfroXLMR,3,0.2477 ± 0.0150,0.2477,0.2464 ± 0.0212,0.2464,0.2756 ± 0.0118,0.2756

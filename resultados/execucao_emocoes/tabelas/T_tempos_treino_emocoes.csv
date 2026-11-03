@@ -1,0 +1,5 @@
+﻿modelo,mean,sum,count
+AfroXLMR,511.6,1534.7,3
+TF-IDF+RL,8.9,8.9,1
+XLM-R,591.1,1773.3,3
+mBERT,200.7,602.0,3

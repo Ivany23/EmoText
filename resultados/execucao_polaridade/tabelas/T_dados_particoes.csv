@@ -1,0 +1,10 @@
+﻿tarefa,particao,n,distribuicao
+Sentimento — AfriSenti Português MZ,train,3063,"{""neutral"": 1600, ""negative"": 782, ""positive"": 681}"
+Sentimento — AfriSenti Português MZ,dev,767,"{""neutral"": 400, ""negative"": 196, ""positive"": 171}"
+Sentimento — AfriSenti Português MZ,test,3662,"{""neutral"": 2379, ""negative"": 655, ""positive"": 628}"
+Sentimento — AfriSenti Xitsonga,train,804,"{""positive"": 384, ""negative"": 284, ""neutral"": 136}"
+Sentimento — AfriSenti Xitsonga,dev,203,"{""positive"": 96, ""negative"": 72, ""neutral"": 35}"
+Sentimento — AfriSenti Xitsonga,test,254,"{""positive"": 121, ""negative"": 90, ""neutral"": 43}"
+Emoções — AfriEmo Português MZ,train,1546,"{""Raiva"": 90, ""Nojo"": 64, ""Medo"": 109, ""Alegria"": 199, ""Tristeza"": 276, ""Surpresa"": 100, ""Neutro"": 715}"
+Emoções — AfriEmo Português MZ,dev,257,"{""Raiva"": 15, ""Nojo"": 10, ""Medo"": 18, ""Alegria"": 33, ""Tristeza"": 46, ""Surpresa"": 17, ""Neutro"": 119}"
+Emoções — AfriEmo Português MZ,test,776,"{""Raiva"": 46, ""Nojo"": 33, ""Medo"": 55, ""Alegria"": 100, ""Tristeza"": 138, ""Surpresa"": 50, ""Neutro"": 358}"

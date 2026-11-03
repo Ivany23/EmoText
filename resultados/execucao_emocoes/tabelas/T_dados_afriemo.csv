@@ -1,0 +1,4 @@
+﻿particao,n,Raiva,Nojo,Medo,Alegria,Tristeza,Surpresa,Neutro
+train,1546,90,64,109,199,276,100,715
+dev,257,15,10,18,33,46,17,119
+test,776,46,33,55,100,138,50,358

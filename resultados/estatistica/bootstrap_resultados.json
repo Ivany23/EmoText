@@ -1,0 +1,182 @@
+{
+ "polaridade_pt": {
+  "XLM-R": {
+   "macro_f1": 62.844793542155706,
+   "ic_inf": 61.33973950964208,
+   "ic_sup": 64.31642952592838,
+   "n_sementes": 3
+  },
+  "AfroXLMR": {
+   "macro_f1": 57.80536614234336,
+   "ic_inf": 56.105140349740815,
+   "ic_sup": 59.34745131213045,
+   "n_sementes": 3
+  },
+  "mBERT": {
+   "macro_f1": 55.88674530903938,
+   "ic_inf": 54.23642443044984,
+   "ic_sup": 57.475160952331564,
+   "n_sementes": 3
+  },
+  "TF-IDF+RL": {
+   "macro_f1": 53.651289689009374,
+   "ic_inf": 51.878632043671324,
+   "ic_sup": 55.507955321531185,
+   "n_sementes": 1
+  },
+  "Léxico NRC": {
+   "macro_f1": 43.1037096072749,
+   "ic_inf": 41.38283416482989,
+   "ic_sup": 44.81435681571667,
+   "n_sementes": 1
+  },
+  "Maioritária": {
+   "macro_f1": 26.253931468299953,
+   "ic_inf": 25.868983957219253,
+   "ic_sup": 26.625116177354986,
+   "n_sementes": 1
+  }
+ },
+ "comp_pt": {
+  "XLM-R vs AfroXLMR": {
+   "diferenca_media": 5.037544117798005,
+   "ic_inf": 3.908754419100742,
+   "ic_sup": 6.136289095768708,
+   "p_bilateral": 0.0
+  },
+  "XLM-R vs TF-IDF": {
+   "diferenca_media": 9.170193308564606,
+   "ic_inf": 7.329803927045976,
+   "ic_sup": 10.882859594063058,
+   "p_bilateral": 0.0
+  },
+  "mBERT vs TF-IDF": {
+   "diferenca_media": 2.2320550242562947,
+   "ic_inf": 0.36604576443812514,
+   "ic_sup": 4.169395654048739,
+   "p_bilateral": 0.022
+  }
+ },
+ "polaridade_xi": {
+  "TF-IDF+RL": {
+   "macro_f1": 44.76524331013738,
+   "ic_inf": 38.96105341507413,
+   "ic_sup": 50.47524135138725,
+   "n_sementes": 1
+  },
+  "AfroXLMR": {
+   "macro_f1": 38.01480528589924,
+   "ic_inf": 34.33416902177222,
+   "ic_sup": 41.637003335585575,
+   "n_sementes": 3
+  },
+  "mBERT": {
+   "macro_f1": 36.98797056787826,
+   "ic_inf": 32.847013865811704,
+   "ic_sup": 40.69851797417153,
+   "n_sementes": 3
+  },
+  "AfroXLMR-76L": {
+   "macro_f1": 35.67311874228977,
+   "ic_inf": 32.028274437874494,
+   "ic_sup": 39.174323496151175,
+   "n_sementes": 3
+  },
+  "XLM-R": {
+   "macro_f1": 33.17108557092627,
+   "ic_inf": 29.553471150332527,
+   "ic_sup": 36.42111039062231,
+   "n_sementes": 3
+  },
+  "Léxico NRC": {
+   "macro_f1": 16.317921204666103,
+   "ic_inf": 12.138351785545087,
+   "ic_sup": 20.812087323493163,
+   "n_sementes": 1
+  },
+  "Maioritária": {
+   "macro_f1": 21.511111111111113,
+   "ic_inf": 19.62962962962963,
+   "ic_sup": 23.358908780903665,
+   "n_sementes": 1
+  }
+ },
+ "comp_xi": {
+  "TF-IDF vs AfroXLMR": {
+   "diferenca_media": 6.547628163607374,
+   "ic_inf": 1.0633687187810543,
+   "ic_sup": 12.443100451644495,
+   "p_bilateral": 0.016
+  },
+  "TF-IDF vs mBERT": {
+   "diferenca_media": 7.6407153157952115,
+   "ic_inf": 2.2503488319047524,
+   "ic_sup": 13.057935982596383,
+   "p_bilateral": 0.006
+  },
+  "AfroXLMR vs XLM-R": {
+   "diferenca_media": 4.899881405989246,
+   "ic_inf": 1.5727364769777268,
+   "ic_sup": 8.222019164158983,
+   "p_bilateral": 0.003
+  },
+  "mBERT vs XLM-R": {
+   "diferenca_media": 3.8067942538014106,
+   "ic_inf": -0.17264626700489008,
+   "ic_sup": 7.931653432855014,
+   "p_bilateral": 0.058
+  }
+ },
+ "emocoes": {
+  "XLM-R": {
+   "macro_f1": 40.460703103890346,
+   "ic_inf": 36.73089210735444,
+   "ic_sup": 43.7528850266027,
+   "n_sementes": 3
+  },
+  "AfroXLMR": {
+   "macro_f1": 39.74040695005293,
+   "ic_inf": 35.79069140038922,
+   "ic_sup": 43.26568300650073,
+   "n_sementes": 3
+  },
+  "mBERT": {
+   "macro_f1": 36.62518862436738,
+   "ic_inf": 32.68991421942997,
+   "ic_sup": 40.23637183879763,
+   "n_sementes": 3
+  },
+  "TFIDF_RL": {
+   "macro_f1": 30.00455563253059,
+   "ic_inf": 25.101817833713913,
+   "ic_sup": 34.70372004699171,
+   "n_sementes": 1
+  },
+  "Lexico_NRC": {
+   "macro_f1": 18.71051777859511,
+   "ic_inf": 16.351922583707935,
+   "ic_sup": 21.03997247307373,
+   "n_sementes": 1
+  }
+ },
+ "comp_emo": {
+  "XLM-R vs AfroXLMR": {
+   "diferenca_media": 0.760088558347587,
+   "ic_inf": -2.0973926168455956,
+   "ic_sup": 3.643317199945583,
+   "p_bilateral": 0.598
+  },
+  "XLM-R vs mBERT": {
+   "diferenca_media": 3.8657924507222505,
+   "ic_inf": 0.9162792129339952,
+   "ic_sup": 6.840000685069689,
+   "p_bilateral": 0.014
+  },
+  "XLM-R vs TF-IDF": {
+   "diferenca_media": 10.497828873800211,
+   "ic_inf": 5.423907221505547,
+   "ic_sup": 15.297482667807913,
+   "p_bilateral": 0.0
+  }
+ }
+}
