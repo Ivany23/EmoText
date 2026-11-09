@@ -20,11 +20,13 @@ Inclui ainda a caracterização de 3.115 comentários públicos do Facebook e a 
 ## Estrutura
 
 ```
+app/              Aplicação web do protótipo (Streamlit)
 notebooks/        Cadernos do Google Colab usados no treino e na avaliação
 src/              Módulos do protótipo: limpeza, detector de língua e avaliação
 lexico/           Léxico de xichangana usado pelo detector de língua
 scripts/
   download_brighter.py   Descarga do AfriEmo (BRIGHTER)
+  treinar_tfidf_xitsonga.py   Treino do modelo TF-IDF de polaridade em xitsonga usado na aplicação
   graficos/              Gráficos e figuras do Capítulo 5
   facebook/              Pseudonimização, amostragem e avaliação do detector nos comentários do Facebook
   estatistica/           Intervalos de confiança por bootstrap
@@ -50,6 +52,22 @@ Passos:
 3. Os resultados são gravados nas pastas `tabelas/`, `figuras/` e `logs/`.
 
 Configuração principal: comprimento máximo de 128 subpalavras, sementes 42, 43 e 44, selecção da melhor época pelo Macro-F1 na validação. Polaridade: taxa de aprendizagem 2×10⁻⁵, 3 épocas (português) e 5 épocas (xitsonga). Emoções: taxa de aprendizagem 3×10⁻⁵, 10 épocas, perda ponderada por emoção e limiares calibrados na validação.
+
+## Aplicação
+
+A aplicação analisa um ficheiro CSV com uma coluna de texto e apresenta três ecrãs: carregamento do ficheiro, resultados por texto e distribuição agregada.
+
+Os modelos não estão no repositório, devido ao tamanho (cerca de 2,2 GB). Para os obter:
+
+1. Executar `notebooks/03_modelos_do_prototipo.ipynb` no Colab com GPU T4 e copiar a pasta `EmoTextModelos/` do Google Drive para `modelos/`.
+2. Executar `python scripts/treinar_tfidf_xitsonga.py <pasta com os ficheiros TSV do AfriSenti>`.
+
+A pasta `modelos/` deve ficar com `polaridade_pt_xlmr/`, `emocoes_pt_xlmr/` e `polaridade_xi_tfidf/`. Depois:
+
+```
+pip install -r requirements.txt
+streamlit run app/app.py
+```
 
 ## Resultados principais (Macro-F1 no teste, média de 3 sementes)
 
